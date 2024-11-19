@@ -1,0 +1,57 @@
+*{
+    padding: 0%;
+    margin: 0%;
+}
+
+
+
+
+
+body{
+    background-color:#b3b0b0 !important;}
+
+
+
+#nav {
+    height: 60px;
+    width: 100%;
+    background-color:#574e4e;
+    display: flex;
+
+    justify-content: space-between;
+    align-items: center;
+
+}
+
+#nav :hover{
+    color: rgb(238, 71, 20);
+    transform:all 20s ;
+}
+
+#para {
+    color: rgb(233, 112, 57);
+    padding-left: 10px;
+    justify-content: space-between;
+    align-items: left;
+}
+
+ul{
+   display: flex;
+
+padding-right: 200px;
+    list-style: none;
+  justify-content: center;
+    gap: 40px;
+  
+}
+ul :hover{
+    color: rgb(255, 255, 255);
+    transform: all 10s 0s;
+}
+
+.colour{
+    color: #f0f0f0;
+}
+.CONTACT{
+    color: rgb(5, 5, 5);
+}
